@@ -1,0 +1,1 @@
+C:\Graphs\Graficas_Bresenham\graficas_bresenham\target\debug\graficas_bresenham.exe: C:\Graphs\Graficas_Bresenham\graficas_bresenham\src\bmp.rs C:\Graphs\Graficas_Bresenham\graficas_bresenham\src\framebuffer.rs C:\Graphs\Graficas_Bresenham\graficas_bresenham\src\line.rs C:\Graphs\Graficas_Bresenham\graficas_bresenham\src\main.rs

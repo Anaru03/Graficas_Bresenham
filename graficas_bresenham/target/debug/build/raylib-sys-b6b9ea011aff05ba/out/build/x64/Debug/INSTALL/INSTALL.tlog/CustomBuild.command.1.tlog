@@ -1,0 +1,10 @@
+^C:\GRAPHS\GRAFICAS_BRESENHAM\GRAFICAS_BRESENHAM\TARGET\DEBUG\BUILD\RAYLIB-SYS-B6B9EA011AFF05BA\OUT\BUILD\CMAKEFILES\A87038A51D52D43A43A254E99791758E\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Graphs\Graficas_Bresenham\graficas_bresenham\target\debug\build\raylib-sys-b6b9ea011aff05ba\out\build\CMakeFiles\ce6bd0a9ef813b1c35bfd45724e7031f\update_mappings.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Usuario\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\raylib-sys-5.5.1\raylib\src\external\glfw\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Usuario\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\raylib-sys-5.5.1\raylib\src\external\glfw\src\mappings.h.in">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Users\Usuario\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\raylib-sys-5.5.1\raylib\src\external\glfw\CMake\GenerateMappings.cmake" />
+    <None Include="C:\Graphs\Graficas_Bresenham\graficas_bresenham\target\debug\build\raylib-sys-b6b9ea011aff05ba\out\build\raylib\external\glfw\src\CMakeFiles\update_mappings" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{8B8B4355-43B9-3AEC-9911-F3F7366B2853}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{BFAD84CB-B676-3DF6-8CF1-3AD6E7525C3D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

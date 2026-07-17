@@ -1,0 +1,7 @@
+C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/build/raylib-sys-b6b9ea011aff05ba/out/lib/raylib.lib
+C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/build/raylib-sys-b6b9ea011aff05ba/out/include/raylib.h
+C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/build/raylib-sys-b6b9ea011aff05ba/out/include/rlgl.h
+C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/build/raylib-sys-b6b9ea011aff05ba/out/include/raymath.h
+C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/build/raylib-sys-b6b9ea011aff05ba/out/lib/pkgconfig/raylib.pc
+C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/build/raylib-sys-b6b9ea011aff05ba/out/lib/cmake/raylib/raylib-config-version.cmake
+C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/build/raylib-sys-b6b9ea011aff05ba/out/lib/cmake/raylib/raylib-config.cmake

@@ -1,0 +1,14 @@
+C:\Graphs\Graficas_Bresenham\graficas_bresenham\target\debug\deps\clang_sys-ceb849a74477ec78.d: C:\Users\Usuario\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\clang-sys-1.8.1\src\lib.rs C:\Users\Usuario\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\clang-sys-1.8.1\src\support.rs C:\Users\Usuario\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\clang-sys-1.8.1\src\link.rs C:\Graphs\Graficas_Bresenham\graficas_bresenham\target\debug\build\clang-sys-7db87ad2afcf74fd\out/macros.rs C:\Graphs\Graficas_Bresenham\graficas_bresenham\target\debug\build\clang-sys-7db87ad2afcf74fd\out/common.rs C:\Graphs\Graficas_Bresenham\graficas_bresenham\target\debug\build\clang-sys-7db87ad2afcf74fd\out/dynamic.rs
+
+C:\Graphs\Graficas_Bresenham\graficas_bresenham\target\debug\deps\libclang_sys-ceb849a74477ec78.rlib: C:\Users\Usuario\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\clang-sys-1.8.1\src\lib.rs C:\Users\Usuario\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\clang-sys-1.8.1\src\support.rs C:\Users\Usuario\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\clang-sys-1.8.1\src\link.rs C:\Graphs\Graficas_Bresenham\graficas_bresenham\target\debug\build\clang-sys-7db87ad2afcf74fd\out/macros.rs C:\Graphs\Graficas_Bresenham\graficas_bresenham\target\debug\build\clang-sys-7db87ad2afcf74fd\out/common.rs C:\Graphs\Graficas_Bresenham\graficas_bresenham\target\debug\build\clang-sys-7db87ad2afcf74fd\out/dynamic.rs
+
+C:\Graphs\Graficas_Bresenham\graficas_bresenham\target\debug\deps\libclang_sys-ceb849a74477ec78.rmeta: C:\Users\Usuario\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\clang-sys-1.8.1\src\lib.rs C:\Users\Usuario\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\clang-sys-1.8.1\src\support.rs C:\Users\Usuario\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\clang-sys-1.8.1\src\link.rs C:\Graphs\Graficas_Bresenham\graficas_bresenham\target\debug\build\clang-sys-7db87ad2afcf74fd\out/macros.rs C:\Graphs\Graficas_Bresenham\graficas_bresenham\target\debug\build\clang-sys-7db87ad2afcf74fd\out/common.rs C:\Graphs\Graficas_Bresenham\graficas_bresenham\target\debug\build\clang-sys-7db87ad2afcf74fd\out/dynamic.rs
+
+C:\Users\Usuario\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\clang-sys-1.8.1\src\lib.rs:
+C:\Users\Usuario\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\clang-sys-1.8.1\src\support.rs:
+C:\Users\Usuario\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\clang-sys-1.8.1\src\link.rs:
+C:\Graphs\Graficas_Bresenham\graficas_bresenham\target\debug\build\clang-sys-7db87ad2afcf74fd\out/macros.rs:
+C:\Graphs\Graficas_Bresenham\graficas_bresenham\target\debug\build\clang-sys-7db87ad2afcf74fd\out/common.rs:
+C:\Graphs\Graficas_Bresenham\graficas_bresenham\target\debug\build\clang-sys-7db87ad2afcf74fd\out/dynamic.rs:
+
+# env-dep:OUT_DIR=C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\build\\clang-sys-7db87ad2afcf74fd\\out

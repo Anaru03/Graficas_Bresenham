@@ -1,0 +1,1711 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x64"
+        - "C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug"
+        - "C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\deps"
+        - "C:\\Users\\Usuario\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib"
+        - "c:\\Users\\Usuario\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\Usuario\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\app\\client\\Usuario\\product\\12.2.0\\client_1"
+        - "C:\\app\\client\\Usuario\\product\\12.2.0\\client_1\\bin"
+        - "C:\\oracle\\"
+        - "C:\\app\\Usuario\\product\\21c\\dbhomeXE\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\PostgreSQL\\16\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\Usuario\\AppData\\Roaming\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\MongoDBTools\\bin"
+        - "C:\\Program Files\\Graphviz\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Google\\Cloud SDK\\google-cloud-sdk\\bin"
+        - "C:\\Terraform"
+        - "C:\\ffmpeg-8.0-essentials_build\\ffmpeg-8.0-essentials_build\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Usuario\\.cargo\\bin"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\MinGW64\\mingw64\\bin"
+        - "C:\\Users\\Usuario\\AppData\\Roaming\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Users\\Usuario\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Usuario\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin"
+      CMAKE_INSTALL_PREFIX: "C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\build\\raylib-sys-b6b9ea011aff05ba\\out"
+      ENV{INCLUDE}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\um"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\cppwinrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\winrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\shared"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: -nologo;-MD;-Brepro;-W0
+      Id flags:  
+      
+      The output was:
+      0
+      Versi├│n de MSBuild 17.14.40+3e7442088 para .NET Framework
+      Compilaci├│n iniciada a las 16/07/2026 11:12:31:PM.
+      
+      Proyecto "C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\build\\raylib-sys-b6b9ea011aff05ba\\out\\build\\CMakeFiles\\4.3.4\\CompilerIdC\\CompilerIdC.vcxproj" en nodo 1 (destinos predeterminados).
+      PrepareForBuild:
+        Creando directorio "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creando directorio "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Se crear├í "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+        Aplicando tarea Touch a "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\build\\raylib-sys-b6b9ea011aff05ba\\out\\build\\CMakeFiles\\4.3.4\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Se eliminar├í el archivo "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Aplicando tarea Touch a "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Compilaci├│n del proyecto terminada "C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\build\\raylib-sys-b6b9ea011aff05ba\\out\\build\\CMakeFiles\\4.3.4\\CompilerIdC\\CompilerIdC.vcxproj" (destinos predeterminados).
+      
+      Compilaci├│n correcta.
+          0 Advertencia(s)
+          0 Errores
+      
+      Tiempo transcurrido 00:00:02.78
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/build/raylib-sys-b6b9ea011aff05ba/out/build/CMakeFiles/4.3.4/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
+      - "C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/"
+      - "C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/deps/"
+      - "C:/Users/Usuario/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/x86_64-pc-windows-msvc/lib/"
+      - "C:/Users/Usuario/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/Usuario/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/app/client/Usuario/product/12.2.0/client_1/"
+      - "C:/app/client/Usuario/product/12.2.0/client_1/bin/"
+      - "C:/oracle/"
+      - "C:/app/Usuario/product/21c/dbhomeXE/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/PostgreSQL/16/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Users/Usuario/AppData/Roaming/nvm/"
+      - "C:/Program Files/nodejs/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/MongoDBTools/bin/"
+      - "C:/Program Files/Graphviz/bin/"
+      - "C:/Program Files (x86)/Google/Cloud SDK/google-cloud-sdk/bin/"
+      - "C:/Terraform/"
+      - "C:/ffmpeg-8.0-essentials_build/ffmpeg-8.0-essentials_build/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Usuario/.cargo/bin/"
+      - "C:/Users/Usuario/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Usuario/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Usuario/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Usuario/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/MinGW64/mingw64/bin/"
+      - "C:/Users/Usuario/AppData/Roaming/npm/"
+      - "C:/Users/Usuario/.rustup/toolchains/stable-x86_64-pc-windows-msvc/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x64"
+        - "C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug"
+        - "C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\deps"
+        - "C:\\Users\\Usuario\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib"
+        - "c:\\Users\\Usuario\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\Usuario\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\app\\client\\Usuario\\product\\12.2.0\\client_1"
+        - "C:\\app\\client\\Usuario\\product\\12.2.0\\client_1\\bin"
+        - "C:\\oracle\\"
+        - "C:\\app\\Usuario\\product\\21c\\dbhomeXE\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\PostgreSQL\\16\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\Usuario\\AppData\\Roaming\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\MongoDBTools\\bin"
+        - "C:\\Program Files\\Graphviz\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Google\\Cloud SDK\\google-cloud-sdk\\bin"
+        - "C:\\Terraform"
+        - "C:\\ffmpeg-8.0-essentials_build\\ffmpeg-8.0-essentials_build\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Usuario\\.cargo\\bin"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\MinGW64\\mingw64\\bin"
+        - "C:\\Users\\Usuario\\AppData\\Roaming\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Users\\Usuario\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Usuario\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin"
+      CMAKE_INSTALL_PREFIX: "C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\build\\raylib-sys-b6b9ea011aff05ba\\out"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
+      - "C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/"
+      - "C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/deps/"
+      - "C:/Users/Usuario/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/x86_64-pc-windows-msvc/lib/"
+      - "C:/Users/Usuario/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/Usuario/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/app/client/Usuario/product/12.2.0/client_1/"
+      - "C:/app/client/Usuario/product/12.2.0/client_1/bin/"
+      - "C:/oracle/"
+      - "C:/app/Usuario/product/21c/dbhomeXE/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/PostgreSQL/16/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Users/Usuario/AppData/Roaming/nvm/"
+      - "C:/Program Files/nodejs/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/MongoDBTools/bin/"
+      - "C:/Program Files/Graphviz/bin/"
+      - "C:/Program Files (x86)/Google/Cloud SDK/google-cloud-sdk/bin/"
+      - "C:/Terraform/"
+      - "C:/ffmpeg-8.0-essentials_build/ffmpeg-8.0-essentials_build/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Usuario/.cargo/bin/"
+      - "C:/Users/Usuario/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Usuario/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Usuario/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Usuario/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/MinGW64/mingw64/bin/"
+      - "C:/Users/Usuario/AppData/Roaming/npm/"
+      - "C:/Users/Usuario/.rustup/toolchains/stable-x86_64-pc-windows-msvc/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/lld-link"
+      - "C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/lld-link.com"
+      - "C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/lld-link.exe"
+      - "C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/lld-link"
+      - "C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/deps/lld-link.com"
+      - "C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/deps/lld-link.exe"
+      - "C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/deps/lld-link"
+      - "C:/Users/Usuario/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/x86_64-pc-windows-msvc/lib/lld-link.com"
+      - "C:/Users/Usuario/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/x86_64-pc-windows-msvc/lib/lld-link.exe"
+      - "C:/Users/Usuario/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/x86_64-pc-windows-msvc/lib/lld-link"
+      - "C:/Users/Usuario/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.com"
+      - "C:/Users/Usuario/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.exe"
+      - "C:/Users/Usuario/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link"
+      - "C:/Users/Usuario/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link.com"
+      - "C:/Users/Usuario/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link.exe"
+      - "C:/Users/Usuario/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link"
+      - "C:/app/client/Usuario/product/12.2.0/client_1/lld-link.com"
+      - "C:/app/client/Usuario/product/12.2.0/client_1/lld-link.exe"
+      - "C:/app/client/Usuario/product/12.2.0/client_1/lld-link"
+      - "C:/app/client/Usuario/product/12.2.0/client_1/bin/lld-link.com"
+      - "C:/app/client/Usuario/product/12.2.0/client_1/bin/lld-link.exe"
+      - "C:/app/client/Usuario/product/12.2.0/client_1/bin/lld-link"
+      - "C:/oracle/lld-link.com"
+      - "C:/oracle/lld-link.exe"
+      - "C:/oracle/lld-link"
+      - "C:/app/Usuario/product/21c/dbhomeXE/bin/lld-link.com"
+      - "C:/app/Usuario/product/21c/dbhomeXE/bin/lld-link.exe"
+      - "C:/app/Usuario/product/21c/dbhomeXE/bin/lld-link"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/PostgreSQL/16/bin/lld-link.com"
+      - "C:/Program Files/PostgreSQL/16/bin/lld-link.exe"
+      - "C:/Program Files/PostgreSQL/16/bin/lld-link"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link"
+      - "C:/Users/Usuario/AppData/Roaming/nvm/lld-link.com"
+      - "C:/Users/Usuario/AppData/Roaming/nvm/lld-link.exe"
+      - "C:/Users/Usuario/AppData/Roaming/nvm/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/msys64/ucrt64/bin/lld-link.com"
+      - "C:/msys64/ucrt64/bin/lld-link.exe"
+      - "C:/msys64/ucrt64/bin/lld-link"
+      - "C:/MongoDBTools/bin/lld-link.com"
+      - "C:/MongoDBTools/bin/lld-link.exe"
+      - "C:/MongoDBTools/bin/lld-link"
+      - "C:/Program Files/Graphviz/bin/lld-link.com"
+      - "C:/Program Files/Graphviz/bin/lld-link.exe"
+      - "C:/Program Files/Graphviz/bin/lld-link"
+      - "C:/Program Files (x86)/Google/Cloud SDK/google-cloud-sdk/bin/lld-link.com"
+      - "C:/Program Files (x86)/Google/Cloud SDK/google-cloud-sdk/bin/lld-link.exe"
+      - "C:/Program Files (x86)/Google/Cloud SDK/google-cloud-sdk/bin/lld-link"
+      - "C:/Terraform/lld-link.com"
+      - "C:/Terraform/lld-link.exe"
+      - "C:/Terraform/lld-link"
+      - "C:/ffmpeg-8.0-essentials_build/ffmpeg-8.0-essentials_build/bin/lld-link.com"
+      - "C:/ffmpeg-8.0-essentials_build/ffmpeg-8.0-essentials_build/bin/lld-link.exe"
+      - "C:/ffmpeg-8.0-essentials_build/ffmpeg-8.0-essentials_build/bin/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Users/Usuario/.cargo/bin/lld-link.com"
+      - "C:/Users/Usuario/.cargo/bin/lld-link.exe"
+      - "C:/Users/Usuario/.cargo/bin/lld-link"
+      - "C:/Users/Usuario/AppData/Local/Programs/Python/Python311/Scripts/lld-link.com"
+      - "C:/Users/Usuario/AppData/Local/Programs/Python/Python311/Scripts/lld-link.exe"
+      - "C:/Users/Usuario/AppData/Local/Programs/Python/Python311/Scripts/lld-link"
+      - "C:/Users/Usuario/AppData/Local/Programs/Python/Python311/lld-link.com"
+      - "C:/Users/Usuario/AppData/Local/Programs/Python/Python311/lld-link.exe"
+      - "C:/Users/Usuario/AppData/Local/Programs/Python/Python311/lld-link"
+      - "C:/Users/Usuario/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/Usuario/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/Usuario/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/Usuario/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/Usuario/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/Usuario/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/MinGW64/mingw64/bin/lld-link.com"
+      - "C:/MinGW64/mingw64/bin/lld-link.exe"
+      - "C:/MinGW64/mingw64/bin/lld-link"
+      - "C:/Users/Usuario/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/Usuario/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/Usuario/AppData/Roaming/npm/lld-link"
+      - "C:/Users/Usuario/.rustup/toolchains/stable-x86_64-pc-windows-msvc/bin/lld-link.com"
+      - "C:/Users/Usuario/.rustup/toolchains/stable-x86_64-pc-windows-msvc/bin/lld-link.exe"
+      - "C:/Users/Usuario/.rustup/toolchains/stable-x86_64-pc-windows-msvc/bin/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x64"
+        - "C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug"
+        - "C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\deps"
+        - "C:\\Users\\Usuario\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib"
+        - "c:\\Users\\Usuario\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\Usuario\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\app\\client\\Usuario\\product\\12.2.0\\client_1"
+        - "C:\\app\\client\\Usuario\\product\\12.2.0\\client_1\\bin"
+        - "C:\\oracle\\"
+        - "C:\\app\\Usuario\\product\\21c\\dbhomeXE\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\PostgreSQL\\16\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\Usuario\\AppData\\Roaming\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\MongoDBTools\\bin"
+        - "C:\\Program Files\\Graphviz\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Google\\Cloud SDK\\google-cloud-sdk\\bin"
+        - "C:\\Terraform"
+        - "C:\\ffmpeg-8.0-essentials_build\\ffmpeg-8.0-essentials_build\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Usuario\\.cargo\\bin"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\MinGW64\\mingw64\\bin"
+        - "C:\\Users\\Usuario\\AppData\\Roaming\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Users\\Usuario\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Usuario\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin"
+      CMAKE_INSTALL_PREFIX: "C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\build\\raylib-sys-b6b9ea011aff05ba\\out"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
+      - "C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/"
+      - "C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/deps/"
+      - "C:/Users/Usuario/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/x86_64-pc-windows-msvc/lib/"
+      - "C:/Users/Usuario/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/Usuario/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/app/client/Usuario/product/12.2.0/client_1/"
+      - "C:/app/client/Usuario/product/12.2.0/client_1/bin/"
+      - "C:/oracle/"
+      - "C:/app/Usuario/product/21c/dbhomeXE/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/PostgreSQL/16/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Users/Usuario/AppData/Roaming/nvm/"
+      - "C:/Program Files/nodejs/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/MongoDBTools/bin/"
+      - "C:/Program Files/Graphviz/bin/"
+      - "C:/Program Files (x86)/Google/Cloud SDK/google-cloud-sdk/bin/"
+      - "C:/Terraform/"
+      - "C:/ffmpeg-8.0-essentials_build/ffmpeg-8.0-essentials_build/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Usuario/.cargo/bin/"
+      - "C:/Users/Usuario/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Usuario/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Usuario/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Usuario/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/MinGW64/mingw64/bin/"
+      - "C:/Users/Usuario/AppData/Roaming/npm/"
+      - "C:/Users/Usuario/.rustup/toolchains/stable-x86_64-pc-windows-msvc/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x64"
+        - "C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug"
+        - "C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\deps"
+        - "C:\\Users\\Usuario\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib"
+        - "c:\\Users\\Usuario\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\Usuario\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\app\\client\\Usuario\\product\\12.2.0\\client_1"
+        - "C:\\app\\client\\Usuario\\product\\12.2.0\\client_1\\bin"
+        - "C:\\oracle\\"
+        - "C:\\app\\Usuario\\product\\21c\\dbhomeXE\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\PostgreSQL\\16\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\Usuario\\AppData\\Roaming\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\MongoDBTools\\bin"
+        - "C:\\Program Files\\Graphviz\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Google\\Cloud SDK\\google-cloud-sdk\\bin"
+        - "C:\\Terraform"
+        - "C:\\ffmpeg-8.0-essentials_build\\ffmpeg-8.0-essentials_build\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Usuario\\.cargo\\bin"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\MinGW64\\mingw64\\bin"
+        - "C:\\Users\\Usuario\\AppData\\Roaming\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Users\\Usuario\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Usuario\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin"
+      CMAKE_INSTALL_PREFIX: "C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\build\\raylib-sys-b6b9ea011aff05ba\\out"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
+      - "C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/"
+      - "C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/deps/"
+      - "C:/Users/Usuario/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/x86_64-pc-windows-msvc/lib/"
+      - "C:/Users/Usuario/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/Usuario/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/app/client/Usuario/product/12.2.0/client_1/"
+      - "C:/app/client/Usuario/product/12.2.0/client_1/bin/"
+      - "C:/oracle/"
+      - "C:/app/Usuario/product/21c/dbhomeXE/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/PostgreSQL/16/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Users/Usuario/AppData/Roaming/nvm/"
+      - "C:/Program Files/nodejs/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/MongoDBTools/bin/"
+      - "C:/Program Files/Graphviz/bin/"
+      - "C:/Program Files (x86)/Google/Cloud SDK/google-cloud-sdk/bin/"
+      - "C:/Terraform/"
+      - "C:/ffmpeg-8.0-essentials_build/ffmpeg-8.0-essentials_build/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Usuario/.cargo/bin/"
+      - "C:/Users/Usuario/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Usuario/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Usuario/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Usuario/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/MinGW64/mingw64/bin/"
+      - "C:/Users/Usuario/AppData/Roaming/npm/"
+      - "C:/Users/Usuario/.rustup/toolchains/stable-x86_64-pc-windows-msvc/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/mt.com"
+    found: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/mt.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x64"
+        - "C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug"
+        - "C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\deps"
+        - "C:\\Users\\Usuario\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib"
+        - "c:\\Users\\Usuario\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\Usuario\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\app\\client\\Usuario\\product\\12.2.0\\client_1"
+        - "C:\\app\\client\\Usuario\\product\\12.2.0\\client_1\\bin"
+        - "C:\\oracle\\"
+        - "C:\\app\\Usuario\\product\\21c\\dbhomeXE\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\PostgreSQL\\16\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\Usuario\\AppData\\Roaming\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\MongoDBTools\\bin"
+        - "C:\\Program Files\\Graphviz\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Google\\Cloud SDK\\google-cloud-sdk\\bin"
+        - "C:\\Terraform"
+        - "C:\\ffmpeg-8.0-essentials_build\\ffmpeg-8.0-essentials_build\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Usuario\\.cargo\\bin"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\MinGW64\\mingw64\\bin"
+        - "C:\\Users\\Usuario\\AppData\\Roaming\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Users\\Usuario\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Usuario\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin"
+      CMAKE_INSTALL_PREFIX: "C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\build\\raylib-sys-b6b9ea011aff05ba\\out"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
+      - "C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/"
+      - "C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/deps/"
+      - "C:/Users/Usuario/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/x86_64-pc-windows-msvc/lib/"
+      - "C:/Users/Usuario/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/Usuario/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/app/client/Usuario/product/12.2.0/client_1/"
+      - "C:/app/client/Usuario/product/12.2.0/client_1/bin/"
+      - "C:/oracle/"
+      - "C:/app/Usuario/product/21c/dbhomeXE/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/PostgreSQL/16/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Users/Usuario/AppData/Roaming/nvm/"
+      - "C:/Program Files/nodejs/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/MongoDBTools/bin/"
+      - "C:/Program Files/Graphviz/bin/"
+      - "C:/Program Files (x86)/Google/Cloud SDK/google-cloud-sdk/bin/"
+      - "C:/Terraform/"
+      - "C:/ffmpeg-8.0-essentials_build/ffmpeg-8.0-essentials_build/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Usuario/.cargo/bin/"
+      - "C:/Users/Usuario/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Usuario/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Usuario/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Usuario/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/MinGW64/mingw64/bin/"
+      - "C:/Users/Usuario/AppData/Roaming/npm/"
+      - "C:/Users/Usuario/.rustup/toolchains/stable-x86_64-pc-windows-msvc/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x64"
+        - "C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug"
+        - "C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\deps"
+        - "C:\\Users\\Usuario\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib"
+        - "c:\\Users\\Usuario\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\Usuario\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\app\\client\\Usuario\\product\\12.2.0\\client_1"
+        - "C:\\app\\client\\Usuario\\product\\12.2.0\\client_1\\bin"
+        - "C:\\oracle\\"
+        - "C:\\app\\Usuario\\product\\21c\\dbhomeXE\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\PostgreSQL\\16\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\Usuario\\AppData\\Roaming\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\MongoDBTools\\bin"
+        - "C:\\Program Files\\Graphviz\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Google\\Cloud SDK\\google-cloud-sdk\\bin"
+        - "C:\\Terraform"
+        - "C:\\ffmpeg-8.0-essentials_build\\ffmpeg-8.0-essentials_build\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Usuario\\.cargo\\bin"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\MinGW64\\mingw64\\bin"
+        - "C:\\Users\\Usuario\\AppData\\Roaming\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Users\\Usuario\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Usuario\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin"
+      CMAKE_INSTALL_PREFIX: "C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\build\\raylib-sys-b6b9ea011aff05ba\\out"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x64"
+        - "C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug"
+        - "C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\deps"
+        - "C:\\Users\\Usuario\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib"
+        - "c:\\Users\\Usuario\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\Usuario\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\app\\client\\Usuario\\product\\12.2.0\\client_1"
+        - "C:\\app\\client\\Usuario\\product\\12.2.0\\client_1\\bin"
+        - "C:\\oracle\\"
+        - "C:\\app\\Usuario\\product\\21c\\dbhomeXE\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\PostgreSQL\\16\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\Usuario\\AppData\\Roaming\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\MongoDBTools\\bin"
+        - "C:\\Program Files\\Graphviz\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Google\\Cloud SDK\\google-cloud-sdk\\bin"
+        - "C:\\Terraform"
+        - "C:\\ffmpeg-8.0-essentials_build\\ffmpeg-8.0-essentials_build\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Usuario\\.cargo\\bin"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\MinGW64\\mingw64\\bin"
+        - "C:\\Users\\Usuario\\AppData\\Roaming\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Users\\Usuario\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Usuario\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin"
+      CMAKE_INSTALL_PREFIX: "C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\build\\raylib-sys-b6b9ea011aff05ba\\out"
+      ENV{INCLUDE}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\um"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\cppwinrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\winrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\shared"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: -nologo;-MD;-Brepro;-W0
+      Id flags:  
+      
+      The output was:
+      0
+      Versi├│n de MSBuild 17.14.40+3e7442088 para .NET Framework
+      Compilaci├│n iniciada a las 16/07/2026 11:12:35:PM.
+      
+      Proyecto "C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\build\\raylib-sys-b6b9ea011aff05ba\\out\\build\\CMakeFiles\\4.3.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" en nodo 1 (destinos predeterminados).
+      PrepareForBuild:
+        Creando directorio "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creando directorio "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Se crear├í "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+        Aplicando tarea Touch a "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\build\\raylib-sys-b6b9ea011aff05ba\\out\\build\\CMakeFiles\\4.3.4\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Se eliminar├í el archivo "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Aplicando tarea Touch a "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Compilaci├│n del proyecto terminada "C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\build\\raylib-sys-b6b9ea011aff05ba\\out\\build\\CMakeFiles\\4.3.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (destinos predeterminados).
+      
+      Compilaci├│n correcta.
+          0 Advertencia(s)
+          0 Errores
+      
+      Tiempo transcurrido 00:00:02.71
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/build/raylib-sys-b6b9ea011aff05ba/out/build/CMakeFiles/4.3.4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
+      - "C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/"
+      - "C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/deps/"
+      - "C:/Users/Usuario/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/x86_64-pc-windows-msvc/lib/"
+      - "C:/Users/Usuario/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/Usuario/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/app/client/Usuario/product/12.2.0/client_1/"
+      - "C:/app/client/Usuario/product/12.2.0/client_1/bin/"
+      - "C:/oracle/"
+      - "C:/app/Usuario/product/21c/dbhomeXE/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/PostgreSQL/16/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Users/Usuario/AppData/Roaming/nvm/"
+      - "C:/Program Files/nodejs/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/MongoDBTools/bin/"
+      - "C:/Program Files/Graphviz/bin/"
+      - "C:/Program Files (x86)/Google/Cloud SDK/google-cloud-sdk/bin/"
+      - "C:/Terraform/"
+      - "C:/ffmpeg-8.0-essentials_build/ffmpeg-8.0-essentials_build/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Usuario/.cargo/bin/"
+      - "C:/Users/Usuario/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Usuario/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Usuario/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Usuario/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/MinGW64/mingw64/bin/"
+      - "C:/Users/Usuario/AppData/Roaming/npm/"
+      - "C:/Users/Usuario/.rustup/toolchains/stable-x86_64-pc-windows-msvc/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/lld-link"
+      - "C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/lld-link.com"
+      - "C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/lld-link.exe"
+      - "C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/lld-link"
+      - "C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/deps/lld-link.com"
+      - "C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/deps/lld-link.exe"
+      - "C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/deps/lld-link"
+      - "C:/Users/Usuario/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/x86_64-pc-windows-msvc/lib/lld-link.com"
+      - "C:/Users/Usuario/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/x86_64-pc-windows-msvc/lib/lld-link.exe"
+      - "C:/Users/Usuario/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/x86_64-pc-windows-msvc/lib/lld-link"
+      - "C:/Users/Usuario/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.com"
+      - "C:/Users/Usuario/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.exe"
+      - "C:/Users/Usuario/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link"
+      - "C:/Users/Usuario/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link.com"
+      - "C:/Users/Usuario/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link.exe"
+      - "C:/Users/Usuario/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link"
+      - "C:/app/client/Usuario/product/12.2.0/client_1/lld-link.com"
+      - "C:/app/client/Usuario/product/12.2.0/client_1/lld-link.exe"
+      - "C:/app/client/Usuario/product/12.2.0/client_1/lld-link"
+      - "C:/app/client/Usuario/product/12.2.0/client_1/bin/lld-link.com"
+      - "C:/app/client/Usuario/product/12.2.0/client_1/bin/lld-link.exe"
+      - "C:/app/client/Usuario/product/12.2.0/client_1/bin/lld-link"
+      - "C:/oracle/lld-link.com"
+      - "C:/oracle/lld-link.exe"
+      - "C:/oracle/lld-link"
+      - "C:/app/Usuario/product/21c/dbhomeXE/bin/lld-link.com"
+      - "C:/app/Usuario/product/21c/dbhomeXE/bin/lld-link.exe"
+      - "C:/app/Usuario/product/21c/dbhomeXE/bin/lld-link"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/PostgreSQL/16/bin/lld-link.com"
+      - "C:/Program Files/PostgreSQL/16/bin/lld-link.exe"
+      - "C:/Program Files/PostgreSQL/16/bin/lld-link"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link"
+      - "C:/Users/Usuario/AppData/Roaming/nvm/lld-link.com"
+      - "C:/Users/Usuario/AppData/Roaming/nvm/lld-link.exe"
+      - "C:/Users/Usuario/AppData/Roaming/nvm/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/msys64/ucrt64/bin/lld-link.com"
+      - "C:/msys64/ucrt64/bin/lld-link.exe"
+      - "C:/msys64/ucrt64/bin/lld-link"
+      - "C:/MongoDBTools/bin/lld-link.com"
+      - "C:/MongoDBTools/bin/lld-link.exe"
+      - "C:/MongoDBTools/bin/lld-link"
+      - "C:/Program Files/Graphviz/bin/lld-link.com"
+      - "C:/Program Files/Graphviz/bin/lld-link.exe"
+      - "C:/Program Files/Graphviz/bin/lld-link"
+      - "C:/Program Files (x86)/Google/Cloud SDK/google-cloud-sdk/bin/lld-link.com"
+      - "C:/Program Files (x86)/Google/Cloud SDK/google-cloud-sdk/bin/lld-link.exe"
+      - "C:/Program Files (x86)/Google/Cloud SDK/google-cloud-sdk/bin/lld-link"
+      - "C:/Terraform/lld-link.com"
+      - "C:/Terraform/lld-link.exe"
+      - "C:/Terraform/lld-link"
+      - "C:/ffmpeg-8.0-essentials_build/ffmpeg-8.0-essentials_build/bin/lld-link.com"
+      - "C:/ffmpeg-8.0-essentials_build/ffmpeg-8.0-essentials_build/bin/lld-link.exe"
+      - "C:/ffmpeg-8.0-essentials_build/ffmpeg-8.0-essentials_build/bin/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Users/Usuario/.cargo/bin/lld-link.com"
+      - "C:/Users/Usuario/.cargo/bin/lld-link.exe"
+      - "C:/Users/Usuario/.cargo/bin/lld-link"
+      - "C:/Users/Usuario/AppData/Local/Programs/Python/Python311/Scripts/lld-link.com"
+      - "C:/Users/Usuario/AppData/Local/Programs/Python/Python311/Scripts/lld-link.exe"
+      - "C:/Users/Usuario/AppData/Local/Programs/Python/Python311/Scripts/lld-link"
+      - "C:/Users/Usuario/AppData/Local/Programs/Python/Python311/lld-link.com"
+      - "C:/Users/Usuario/AppData/Local/Programs/Python/Python311/lld-link.exe"
+      - "C:/Users/Usuario/AppData/Local/Programs/Python/Python311/lld-link"
+      - "C:/Users/Usuario/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/Usuario/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/Usuario/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/Usuario/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/Usuario/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/Usuario/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/MinGW64/mingw64/bin/lld-link.com"
+      - "C:/MinGW64/mingw64/bin/lld-link.exe"
+      - "C:/MinGW64/mingw64/bin/lld-link"
+      - "C:/Users/Usuario/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/Usuario/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/Usuario/AppData/Roaming/npm/lld-link"
+      - "C:/Users/Usuario/.rustup/toolchains/stable-x86_64-pc-windows-msvc/bin/lld-link.com"
+      - "C:/Users/Usuario/.rustup/toolchains/stable-x86_64-pc-windows-msvc/bin/lld-link.exe"
+      - "C:/Users/Usuario/.rustup/toolchains/stable-x86_64-pc-windows-msvc/bin/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x64"
+        - "C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug"
+        - "C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\deps"
+        - "C:\\Users\\Usuario\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib"
+        - "c:\\Users\\Usuario\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\Usuario\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\app\\client\\Usuario\\product\\12.2.0\\client_1"
+        - "C:\\app\\client\\Usuario\\product\\12.2.0\\client_1\\bin"
+        - "C:\\oracle\\"
+        - "C:\\app\\Usuario\\product\\21c\\dbhomeXE\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\PostgreSQL\\16\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\Usuario\\AppData\\Roaming\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\MongoDBTools\\bin"
+        - "C:\\Program Files\\Graphviz\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Google\\Cloud SDK\\google-cloud-sdk\\bin"
+        - "C:\\Terraform"
+        - "C:\\ffmpeg-8.0-essentials_build\\ffmpeg-8.0-essentials_build\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Usuario\\.cargo\\bin"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\MinGW64\\mingw64\\bin"
+        - "C:\\Users\\Usuario\\AppData\\Roaming\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Users\\Usuario\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Usuario\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin"
+      CMAKE_INSTALL_PREFIX: "C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\build\\raylib-sys-b6b9ea011aff05ba\\out"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC.cmake:592 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC.cmake:565 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
+      - "C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/"
+      - "C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/deps/"
+      - "C:/Users/Usuario/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/x86_64-pc-windows-msvc/lib/"
+      - "C:/Users/Usuario/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/Usuario/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/app/client/Usuario/product/12.2.0/client_1/"
+      - "C:/app/client/Usuario/product/12.2.0/client_1/bin/"
+      - "C:/oracle/"
+      - "C:/app/Usuario/product/21c/dbhomeXE/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/PostgreSQL/16/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Users/Usuario/AppData/Roaming/nvm/"
+      - "C:/Program Files/nodejs/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/MongoDBTools/bin/"
+      - "C:/Program Files/Graphviz/bin/"
+      - "C:/Program Files (x86)/Google/Cloud SDK/google-cloud-sdk/bin/"
+      - "C:/Terraform/"
+      - "C:/ffmpeg-8.0-essentials_build/ffmpeg-8.0-essentials_build/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Usuario/.cargo/bin/"
+      - "C:/Users/Usuario/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Usuario/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Usuario/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Usuario/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/MinGW64/mingw64/bin/"
+      - "C:/Users/Usuario/AppData/Roaming/npm/"
+      - "C:/Users/Usuario/.rustup/toolchains/stable-x86_64-pc-windows-msvc/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/build/raylib-sys-b6b9ea011aff05ba/out/bin/"
+      - "C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/build/raylib-sys-b6b9ea011aff05ba/out/sbin/"
+      - "C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/build/raylib-sys-b6b9ea011aff05ba/out/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/rc.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/rc.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/rc.com"
+    found: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/rc.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x64"
+        - "C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug"
+        - "C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\deps"
+        - "C:\\Users\\Usuario\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib"
+        - "c:\\Users\\Usuario\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\Usuario\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\app\\client\\Usuario\\product\\12.2.0\\client_1"
+        - "C:\\app\\client\\Usuario\\product\\12.2.0\\client_1\\bin"
+        - "C:\\oracle\\"
+        - "C:\\app\\Usuario\\product\\21c\\dbhomeXE\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\PostgreSQL\\16\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\Usuario\\AppData\\Roaming\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\MongoDBTools\\bin"
+        - "C:\\Program Files\\Graphviz\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Google\\Cloud SDK\\google-cloud-sdk\\bin"
+        - "C:\\Terraform"
+        - "C:\\ffmpeg-8.0-essentials_build\\ffmpeg-8.0-essentials_build\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Usuario\\.cargo\\bin"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Usuario\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\MinGW64\\mingw64\\bin"
+        - "C:\\Users\\Usuario\\AppData\\Roaming\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Users\\Usuario\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Usuario\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/build/raylib-sys-b6b9ea011aff05ba/out"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/build/raylib-sys-b6b9ea011aff05ba/out"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/build/raylib-sys-b6b9ea011aff05ba/out/build/CMakeFiles/CMakeScratch/TryCompile-qevgss"
+      binary: "C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/build/raylib-sys-b6b9ea011aff05ba/out/build/CMakeFiles/CMakeScratch/TryCompile-qevgss"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro -W0"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro -W0"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/build/raylib-sys-b6b9ea011aff05ba/out/build/CMakeFiles/CMakeScratch/TryCompile-qevgss'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_88218.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Versi├│n de MSBuild 17.14.40+3e7442088 para .NET Framework
+        Compilaci├│n iniciada a las 16/07/2026 11:12:39:PM.
+        
+        Proyecto "C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\build\\raylib-sys-b6b9ea011aff05ba\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qevgss\\cmTC_88218.vcxproj" en nodo 1 (destinos predeterminados).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creando directorio "C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\build\\raylib-sys-b6b9ea011aff05ba\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qevgss\\Debug\\".
+          Creando directorio "cmTC_88218.dir\\Debug\\cmTC_88218.tlog\\".
+        InitializeBuildStatus:
+          Se crear├í "cmTC_88218.dir\\Debug\\cmTC_88218.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_88218.dir\\Debug\\cmTC_88218.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /D _MBCS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /MD /Fo"cmTC_88218.dir\\Debug\\\\" /Fd"cmTC_88218.dir\\Debug\\vc143.pdb" /external:W0 /TC /errorReport:queue  -Brepro -Brepro "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\build\\raylib-sys-b6b9ea011aff05ba\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qevgss\\Debug\\cmTC_88218.exe" /INCREMENTAL /ILK:"cmTC_88218.dir\\Debug\\cmTC_88218.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/build/raylib-sys-b6b9ea011aff05ba/out/build/CMakeFiles/CMakeScratch/TryCompile-qevgss/Debug/cmTC_88218.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/build/raylib-sys-b6b9ea011aff05ba/out/build/CMakeFiles/CMakeScratch/TryCompile-qevgss/Debug/cmTC_88218.lib" /MACHINE:X64  /machine:x64 cmTC_88218.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_88218.vcxproj -> C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\build\\raylib-sys-b6b9ea011aff05ba\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qevgss\\Debug\\cmTC_88218.exe
+        FinalizeBuildStatus:
+          Se eliminar├í el archivo "cmTC_88218.dir\\Debug\\cmTC_88218.tlog\\unsuccessfulbuild".
+          Aplicando tarea Touch a "cmTC_88218.dir\\Debug\\cmTC_88218.tlog\\cmTC_88218.lastbuildstate".
+        Compilaci├│n del proyecto terminada "C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\build\\raylib-sys-b6b9ea011aff05ba\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qevgss\\cmTC_88218.vcxproj" (destinos predeterminados).
+        
+        Compilaci├│n correcta.
+            0 Advertencia(s)
+            0 Errores
+        
+        Tiempo transcurrido 00:00:02.57
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35228.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/build/raylib-sys-b6b9ea011aff05ba/out/build/CMakeFiles/CMakeScratch/TryCompile-hybhy4"
+      binary: "C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/build/raylib-sys-b6b9ea011aff05ba/out/build/CMakeFiles/CMakeScratch/TryCompile-hybhy4"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -nologo -MD -Brepro -W0"
+      CMAKE_CXX_FLAGS_DEBUG: " -nologo -MD -Brepro -W0"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/build/raylib-sys-b6b9ea011aff05ba/out/build/CMakeFiles/CMakeScratch/TryCompile-hybhy4'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6270a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Versi├│n de MSBuild 17.14.40+3e7442088 para .NET Framework
+        Compilaci├│n iniciada a las 16/07/2026 11:12:43:PM.
+        
+        Proyecto "C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\build\\raylib-sys-b6b9ea011aff05ba\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hybhy4\\cmTC_6270a.vcxproj" en nodo 1 (destinos predeterminados).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creando directorio "C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\build\\raylib-sys-b6b9ea011aff05ba\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hybhy4\\Debug\\".
+          Creando directorio "cmTC_6270a.dir\\Debug\\cmTC_6270a.tlog\\".
+        InitializeBuildStatus:
+          Se crear├í "cmTC_6270a.dir\\Debug\\cmTC_6270a.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_6270a.dir\\Debug\\cmTC_6270a.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /D _MBCS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /MD /Fo"cmTC_6270a.dir\\Debug\\\\" /Fd"cmTC_6270a.dir\\Debug\\vc143.pdb" /external:W0 /TP /errorReport:queue  -Brepro -Brepro "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\build\\raylib-sys-b6b9ea011aff05ba\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hybhy4\\Debug\\cmTC_6270a.exe" /INCREMENTAL /ILK:"cmTC_6270a.dir\\Debug\\cmTC_6270a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/build/raylib-sys-b6b9ea011aff05ba/out/build/CMakeFiles/CMakeScratch/TryCompile-hybhy4/Debug/cmTC_6270a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/build/raylib-sys-b6b9ea011aff05ba/out/build/CMakeFiles/CMakeScratch/TryCompile-hybhy4/Debug/cmTC_6270a.lib" /MACHINE:X64  /machine:x64 cmTC_6270a.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_6270a.vcxproj -> C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\build\\raylib-sys-b6b9ea011aff05ba\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hybhy4\\Debug\\cmTC_6270a.exe
+        FinalizeBuildStatus:
+          Se eliminar├í el archivo "cmTC_6270a.dir\\Debug\\cmTC_6270a.tlog\\unsuccessfulbuild".
+          Aplicando tarea Touch a "cmTC_6270a.dir\\Debug\\cmTC_6270a.tlog\\cmTC_6270a.lastbuildstate".
+        Compilaci├│n del proyecto terminada "C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\build\\raylib-sys-b6b9ea011aff05ba\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hybhy4\\cmTC_6270a.vcxproj" (destinos predeterminados).
+        
+        Compilaci├│n correcta.
+            0 Advertencia(s)
+            0 Errores
+        
+        Tiempo transcurrido 00:00:02.57
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35228.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckCCompilerFlag.cmake:105 (cmake_check_compiler_flag)"
+      - "cmake/AddIfFlagCompiles.cmake:3 (CHECK_C_COMPILER_FLAG)"
+      - "cmake/CompilerFlags.cmake:5 (add_if_flag_compiles)"
+      - "CMakeLists.txt:34 (include)"
+    checks:
+      - "Performing Test COMPILER_HAS_THOSE_TOGGLES"
+    directories:
+      source: "C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/build/raylib-sys-b6b9ea011aff05ba/out/build/CMakeFiles/CMakeScratch/TryCompile-x64cbw"
+      binary: "C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/build/raylib-sys-b6b9ea011aff05ba/out/build/CMakeFiles/CMakeScratch/TryCompile-x64cbw"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro -W0"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro -W0"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Usuario/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/raylib-sys-5.5.1/raylib/cmake"
+    buildResult:
+      variable: "COMPILER_HAS_THOSE_TOGGLES"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/build/raylib-sys-b6b9ea011aff05ba/out/build/CMakeFiles/CMakeScratch/TryCompile-x64cbw'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b240d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Versi├│n de MSBuild 17.14.40+3e7442088 para .NET Framework
+        Compilaci├│n iniciada a las 16/07/2026 11:12:47:PM.
+        
+        Proyecto "C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\build\\raylib-sys-b6b9ea011aff05ba\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x64cbw\\cmTC_b240d.vcxproj" en nodo 1 (destinos predeterminados).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creando directorio "C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\build\\raylib-sys-b6b9ea011aff05ba\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x64cbw\\Debug\\".
+          Creando directorio "cmTC_b240d.dir\\Debug\\cmTC_b240d.tlog\\".
+        InitializeBuildStatus:
+          Se crear├í "cmTC_b240d.dir\\Debug\\cmTC_b240d.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_b240d.dir\\Debug\\cmTC_b240d.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /D _MBCS /D COMPILER_HAS_THOSE_TOGGLES /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /MD /Fo"cmTC_b240d.dir\\Debug\\\\" /Fd"cmTC_b240d.dir\\Debug\\vc143.pdb" /external:W0 /TC /errorReport:queue  -Brepro -Brepro -Werror=pointer-arith "C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\build\\raylib-sys-b6b9ea011aff05ba\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x64cbw\\src.c"
+        cl : command line  error D8021: invalid numeric argument '/Werror=pointer-arith' [C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\build\\raylib-sys-b6b9ea011aff05ba\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x64cbw\\cmTC_b240d.vcxproj]
+        Compilaci├│n del proyecto terminada "C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\build\\raylib-sys-b6b9ea011aff05ba\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x64cbw\\cmTC_b240d.vcxproj" (destinos predeterminados) -- ERROR.
+        
+        ERROR al compilar.
+        
+        "C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\build\\raylib-sys-b6b9ea011aff05ba\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x64cbw\\cmTC_b240d.vcxproj" (destino predeterminado) (1) ->
+        (ClCompile destino) -> 
+          cl : command line  error D8021: invalid numeric argument '/Werror=pointer-arith' [C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\build\\raylib-sys-b6b9ea011aff05ba\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x64cbw\\cmTC_b240d.vcxproj]
+        
+            0 Advertencia(s)
+            1 Errores
+        
+        Tiempo transcurrido 00:00:02.14
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:160 (check_c_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:226 (_threads_check_libc)"
+      - "src/external/glfw/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/build/raylib-sys-b6b9ea011aff05ba/out/build/CMakeFiles/CMakeScratch/TryCompile-cz6a6o"
+      binary: "C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/build/raylib-sys-b6b9ea011aff05ba/out/build/CMakeFiles/CMakeScratch/TryCompile-cz6a6o"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro -W0"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro -W0"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Usuario/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/raylib-sys-5.5.1/raylib/cmake;C:/Users/Usuario/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/raylib-sys-5.5.1/raylib/src/external/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/build/raylib-sys-b6b9ea011aff05ba/out/build/CMakeFiles/CMakeScratch/TryCompile-cz6a6o'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_408a5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Versi├│n de MSBuild 17.14.40+3e7442088 para .NET Framework
+        Compilaci├│n iniciada a las 16/07/2026 11:12:50:PM.
+        
+        Proyecto "C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\build\\raylib-sys-b6b9ea011aff05ba\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cz6a6o\\cmTC_408a5.vcxproj" en nodo 1 (destinos predeterminados).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creando directorio "C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\build\\raylib-sys-b6b9ea011aff05ba\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cz6a6o\\Debug\\".
+          Creando directorio "cmTC_408a5.dir\\Debug\\cmTC_408a5.tlog\\".
+        InitializeBuildStatus:
+          Se crear├í "cmTC_408a5.dir\\Debug\\cmTC_408a5.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_408a5.dir\\Debug\\cmTC_408a5.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /D _MBCS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /MD /Fo"cmTC_408a5.dir\\Debug\\\\" /Fd"cmTC_408a5.dir\\Debug\\vc143.pdb" /external:W0 /TC /errorReport:queue  -Brepro -Brepro "C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\build\\raylib-sys-b6b9ea011aff05ba\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cz6a6o\\src.c"
+          src.c
+        C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\build\\raylib-sys-b6b9ea011aff05ba\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cz6a6o\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\build\\raylib-sys-b6b9ea011aff05ba\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cz6a6o\\cmTC_408a5.vcxproj]
+        Compilaci├│n del proyecto terminada "C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\build\\raylib-sys-b6b9ea011aff05ba\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cz6a6o\\cmTC_408a5.vcxproj" (destinos predeterminados) -- ERROR.
+        
+        ERROR al compilar.
+        
+        "C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\build\\raylib-sys-b6b9ea011aff05ba\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cz6a6o\\cmTC_408a5.vcxproj" (destino predeterminado) (1) ->
+        (ClCompile destino) -> 
+          C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\build\\raylib-sys-b6b9ea011aff05ba\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cz6a6o\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\build\\raylib-sys-b6b9ea011aff05ba\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cz6a6o\\cmTC_408a5.vcxproj]
+        
+            0 Advertencia(s)
+            1 Errores
+        
+        Tiempo transcurrido 00:00:02.46
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:238 (_threads_check_lib)"
+      - "src/external/glfw/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/build/raylib-sys-b6b9ea011aff05ba/out/build/CMakeFiles/CMakeScratch/TryCompile-hz9vt9"
+      binary: "C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/build/raylib-sys-b6b9ea011aff05ba/out/build/CMakeFiles/CMakeScratch/TryCompile-hz9vt9"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro -W0"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro -W0"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Usuario/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/raylib-sys-5.5.1/raylib/cmake;C:/Users/Usuario/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/raylib-sys-5.5.1/raylib/src/external/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/build/raylib-sys-b6b9ea011aff05ba/out/build/CMakeFiles/CMakeScratch/TryCompile-hz9vt9'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_df093.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Versi├│n de MSBuild 17.14.40+3e7442088 para .NET Framework
+        Compilaci├│n iniciada a las 16/07/2026 11:12:54:PM.
+        
+        Proyecto "C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\build\\raylib-sys-b6b9ea011aff05ba\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hz9vt9\\cmTC_df093.vcxproj" en nodo 1 (destinos predeterminados).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creando directorio "C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\build\\raylib-sys-b6b9ea011aff05ba\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hz9vt9\\Debug\\".
+          Creando directorio "cmTC_df093.dir\\Debug\\cmTC_df093.tlog\\".
+        InitializeBuildStatus:
+          Se crear├í "cmTC_df093.dir\\Debug\\cmTC_df093.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_df093.dir\\Debug\\cmTC_df093.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /D _MBCS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /MD /Fo"cmTC_df093.dir\\Debug\\\\" /Fd"cmTC_df093.dir\\Debug\\vc143.pdb" /external:W0 /TC /errorReport:queue  -Brepro -Brepro "C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\build\\raylib-sys-b6b9ea011aff05ba\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hz9vt9\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\build\\raylib-sys-b6b9ea011aff05ba\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hz9vt9\\Debug\\cmTC_df093.exe" /INCREMENTAL /ILK:"cmTC_df093.dir\\Debug\\cmTC_df093.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/build/raylib-sys-b6b9ea011aff05ba/out/build/CMakeFiles/CMakeScratch/TryCompile-hz9vt9/Debug/cmTC_df093.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/build/raylib-sys-b6b9ea011aff05ba/out/build/CMakeFiles/CMakeScratch/TryCompile-hz9vt9/Debug/cmTC_df093.lib" /MACHINE:X64  /machine:x64 cmTC_df093.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\build\\raylib-sys-b6b9ea011aff05ba\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hz9vt9\\cmTC_df093.vcxproj]
+        Compilaci├│n del proyecto terminada "C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\build\\raylib-sys-b6b9ea011aff05ba\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hz9vt9\\cmTC_df093.vcxproj" (destinos predeterminados) -- ERROR.
+        
+        ERROR al compilar.
+        
+        "C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\build\\raylib-sys-b6b9ea011aff05ba\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hz9vt9\\cmTC_df093.vcxproj" (destino predeterminado) (1) ->
+        (Link destino) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\build\\raylib-sys-b6b9ea011aff05ba\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hz9vt9\\cmTC_df093.vcxproj]
+        
+            0 Advertencia(s)
+            1 Errores
+        
+        Tiempo transcurrido 00:00:02.37
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:239 (_threads_check_lib)"
+      - "src/external/glfw/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/build/raylib-sys-b6b9ea011aff05ba/out/build/CMakeFiles/CMakeScratch/TryCompile-bw6b2u"
+      binary: "C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/build/raylib-sys-b6b9ea011aff05ba/out/build/CMakeFiles/CMakeScratch/TryCompile-bw6b2u"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro -W0"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro -W0"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Usuario/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/raylib-sys-5.5.1/raylib/cmake;C:/Users/Usuario/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/raylib-sys-5.5.1/raylib/src/external/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/build/raylib-sys-b6b9ea011aff05ba/out/build/CMakeFiles/CMakeScratch/TryCompile-bw6b2u'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_43fa7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Versi├│n de MSBuild 17.14.40+3e7442088 para .NET Framework
+        Compilaci├│n iniciada a las 16/07/2026 11:12:58:PM.
+        
+        Proyecto "C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\build\\raylib-sys-b6b9ea011aff05ba\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bw6b2u\\cmTC_43fa7.vcxproj" en nodo 1 (destinos predeterminados).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creando directorio "C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\build\\raylib-sys-b6b9ea011aff05ba\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bw6b2u\\Debug\\".
+          Creando directorio "cmTC_43fa7.dir\\Debug\\cmTC_43fa7.tlog\\".
+        InitializeBuildStatus:
+          Se crear├í "cmTC_43fa7.dir\\Debug\\cmTC_43fa7.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_43fa7.dir\\Debug\\cmTC_43fa7.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /D _MBCS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /MD /Fo"cmTC_43fa7.dir\\Debug\\\\" /Fd"cmTC_43fa7.dir\\Debug\\vc143.pdb" /external:W0 /TC /errorReport:queue  -Brepro -Brepro "C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\build\\raylib-sys-b6b9ea011aff05ba\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bw6b2u\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\build\\raylib-sys-b6b9ea011aff05ba\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bw6b2u\\Debug\\cmTC_43fa7.exe" /INCREMENTAL /ILK:"cmTC_43fa7.dir\\Debug\\cmTC_43fa7.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/build/raylib-sys-b6b9ea011aff05ba/out/build/CMakeFiles/CMakeScratch/TryCompile-bw6b2u/Debug/cmTC_43fa7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/build/raylib-sys-b6b9ea011aff05ba/out/build/CMakeFiles/CMakeScratch/TryCompile-bw6b2u/Debug/cmTC_43fa7.lib" /MACHINE:X64  /machine:x64 cmTC_43fa7.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\build\\raylib-sys-b6b9ea011aff05ba\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bw6b2u\\cmTC_43fa7.vcxproj]
+        Compilaci├│n del proyecto terminada "C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\build\\raylib-sys-b6b9ea011aff05ba\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bw6b2u\\cmTC_43fa7.vcxproj" (destinos predeterminados) -- ERROR.
+        
+        ERROR al compilar.
+        
+        "C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\build\\raylib-sys-b6b9ea011aff05ba\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bw6b2u\\cmTC_43fa7.vcxproj" (destino predeterminado) (1) ->
+        (Link destino) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Graphs\\Graficas_Bresenham\\graficas_bresenham\\target\\debug\\build\\raylib-sys-b6b9ea011aff05ba\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bw6b2u\\cmTC_43fa7.vcxproj]
+        
+            0 Advertencia(s)
+            1 Errores
+        
+        Tiempo transcurrido 00:00:02.35
+        
+      exitCode: 1
+...

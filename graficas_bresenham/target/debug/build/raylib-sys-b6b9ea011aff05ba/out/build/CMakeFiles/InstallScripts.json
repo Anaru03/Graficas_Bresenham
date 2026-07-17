@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/build/raylib-sys-b6b9ea011aff05ba/out/build/cmake_install.cmake",
+		"C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/build/raylib-sys-b6b9ea011aff05ba/out/build/raylib/cmake_install.cmake",
+		"C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/build/raylib-sys-b6b9ea011aff05ba/out/build/raylib/external/glfw/cmake_install.cmake",
+		"C:/Graphs/Graficas_Bresenham/graficas_bresenham/target/debug/build/raylib-sys-b6b9ea011aff05ba/out/build/raylib/external/glfw/src/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
